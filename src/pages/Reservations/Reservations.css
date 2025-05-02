@@ -1,0 +1,13 @@
+.booking-page {
+  margin: 3rem 0;
+}
+
+.booking-page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}

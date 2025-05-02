@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Karla, sans-serif;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+  color: #495e57;
+}
+
+header {
+  border-bottom: 10px solid #495e57;
+}
+
+h1,
+h2 {
+  line-height: 1;
+  font-family: "Markazi Text";
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  line-height: 1;
+  font-size: 1.25rem;
+  font-family: "Karla", sans-serif;
+}
+
+h4 {
+  line-height: 1;
+  font-size: 1rem;
+  font-family: "Karla", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 70rem;
+}
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  min-height: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.error-container-header {
+  font-size: 2.15rem;
+}
+
+.button-primary {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 16px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+  background-color: #f4ce14;
+  border: 2px solid #f4ce14;
+  transition: all 0.3s ease;
+}
+
+.button-primary:hover {
+  color: #ffffff;
+  background-color: #495e57;
+}

@@ -1,0 +1,20 @@
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-field label {
+  color: #495E57;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-field .required {
+  color: #FF0000;
+}
+
+.error-message {
+  color: #FF0000;
+  font-weight: bold;
+}

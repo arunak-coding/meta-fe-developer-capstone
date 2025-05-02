@@ -1,0 +1,38 @@
+.review-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  padding: 30px;
+  height: 380px;
+}
+
+.review-card-image {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.review-card-image img {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.reviewer-name {
+  text-align: center;
+  color: #495E57;
+  padding: 10px;
+}
+
+.rating {
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 10px;
+}
+
+.review-card p {
+  color: #495E57;
+  padding: 5px;
+}

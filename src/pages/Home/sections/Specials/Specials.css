@@ -1,0 +1,39 @@
+.week-specials-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.meal-card-container {
+  display: grid;
+  gap: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.week-specials-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 1.5rem 0;
+}
+
+@media (min-width: 1200px) {
+  .meal-card-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+  .meal-card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .meal-card-container {
+    grid-template-columns: 1fr;
+  }
+}

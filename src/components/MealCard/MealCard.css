@@ -1,0 +1,51 @@
+.meal-card {
+	display: flex;
+	flex-direction: column;
+	background-color: #EDEFEE;
+	border-radius: 16px;
+}
+
+.card-image {
+	width: 100%;
+	height: 250px;
+}
+
+.card-image img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	border-radius: 16px 16px 0 0;
+}
+
+.card-information {
+	padding: 35px 25px;
+}
+
+.card-header {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 35px;
+}
+
+.item-name {
+	color: #000000;
+}
+
+.item-price {
+	color: #EE9972;
+}
+
+.card-description {
+	height: 160px;
+}
+
+.card-link {
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+	transition: color 0.3s ease;
+}
+
+.card-link:hover {
+	color: #495E57;
+}
